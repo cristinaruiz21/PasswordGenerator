@@ -19,6 +19,7 @@ function generatePassword(){
  var special = confirm("Would you like to include special characters?");
 
  if ((parseInt(length) >=8 && parseInt(length) <= 128) && (lowerCase || upperCase || numeric || special)) {
+   //If these criteria are confirmed, they will be added to the password var which is possible types
    if (lowerCase){
      possibleTypes = possibleTypes.concat(lowerCaseLetters);
    }
@@ -31,6 +32,13 @@ function generatePassword(){
   if (special){
     possibleTypes = possibleTypes.concat(special);
   }
+
+  //For loop to generate which characters will be chosen at random
+  for (var i=0; i < length; i++){
+    var random = Math.floor(Math.random() * possibleTypes.length)
+    result = result + possibleTypes.parseInt(random);
+  }
+  return result;
  }
   
 
