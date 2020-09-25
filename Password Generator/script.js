@@ -1,3 +1,15 @@
+//Button connection to HTML
+var generateBtn = document.querySelector("#generate");
+
+// Write password to the #password input
+function writePassword() {
+  var password = generatePassword();
+  var passwordText = document.querySelector("#password");
+
+  passwordText.value = password;
+
+}
+
 function generatePassword(){
 
   //These are all of the criteria questions for the new password
@@ -43,12 +55,3 @@ var possibleTypes ="";
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
-//Button connection to HTML
-var generateBtn = document.querySelector("#generate");
-
-
-// Write password to the #password input
-function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
-  passwordText.value = password;}
