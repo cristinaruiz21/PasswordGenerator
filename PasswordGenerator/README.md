@@ -7,4 +7,5 @@ Obstacles I faced: I struggled to create the for loop to generate the random cha
 
 Contributors: UT Austin Coding Bootcamp; github: UTA-AUS-FSF-FT-09-2020-U-C-Students
 
-<iframe src="https://drive.google.com/file/d/1oQw3ygp93rpre7tpTDtoThy22sjGfvJN/preview" width="640" height="480"></iframe>
+Quick video of the program running:
+https://drive.google.com/file/d/1oQw3ygp93rpre7tpTDtoThy22sjGfvJN/view
