@@ -9,3 +9,7 @@ Contributors: UT Austin Coding Bootcamp instructors and students; github:UTA-AUS
 
 Quick video of the program running:
 https://drive.google.com/file/d/1oQw3ygp93rpre7tpTDtoThy22sjGfvJN/view
+
+Screen shot of deployed webpage: src="Assets\03-javascript-homework-demo.png"
+
+Link to website: https://cristinaruiz21.github.io/PasswordGenerator/
